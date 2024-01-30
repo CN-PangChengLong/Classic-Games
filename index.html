@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-control" content="no-cache" />
+    <meta http-equiv="Cache" content="no-cache" />
+    <title>我的个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            float: left;
+        }
+
+        .profile-photo {
+            max-width: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .profile-name {
+            font-size: 20px;
+            color: white;
+        }
+
+        nav {
+            float: right;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #e8491d;
+        }
+
+        .skills {
+            background: #f4f4f4;
+            padding: 0px;
+            margin-top: 20px;
+        }
+
+        .skills h1, .contact-info h1 {
+            margin-top: 0;
+        }
+
+        .skills ul, .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills ul li, .contact-info ul li {
+            border: 1px solid #ddd;
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            background: #fff;
+        }
+
+        .contact-info {
+            background: #f4f4f4;
+            padding: 0px;
+            margin-top: 20px;
+        }
+
+        .contact-info ul {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-header">
+                <img class="profile-photo" src="head.jpg" alt="Profile Photo">
+                <span class="profile-name">逄成龙</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">主页</a></li>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#contact">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <h1>程序员的自我修养</h1>
+            <p>代码不仅仅是字符和语法，它是解决问题的艺术！</p>
+        </section>
+
+        <section id="about">
+            <h1>关于我</h1>
+            <p>我是一位具有7年丰富经验的Unity开发者，曾担任主程序员、程序经理，以及研发副总监等关键职位。在我的职业生涯中，我不仅专注于高质量的游戏和应用开发，还在项目管理和团队协作方面积累了丰富经验。
+                
+作为一个技术领导者，我熟练掌握从项目前期工程搭建到开发进度跟进与同步的各个环节。在团队沟通中，无论是与组员、策划、项目经理，还是公司高层，我都能够确保信息的准确传递和项目目标的顺利实现。
+
+我的主要工作内容包括深入参与开发过程，确认和细化需求，以及高效地分配和管理工作任务。通过我的努力，我帮助团队提高了工作效率，同时确保了项目的高质量完成。
+
+在技术上，我精通C#编程，熟悉引擎中的各种组件，同时注重于优化性能和用户体验。我始终追求在技术创新和团队合作中找到最佳平衡点，以推动项目的成功。
+
+除了专注于工作，我也热衷于学习最新技术趋势，并乐于与行业内的同行交流经验。我相信，通过持续学习和创新，可以在虚拟世界中创造出更多精彩纷呈的体验。</p>
+        </section>
+
+        <section class="skills">
+            <h1>技能标签</h1>
+            <ul>
+                <li>Unity</li>
+                <li>c#</li>
+                <li>http</li>
+                <li>2d / 3d</li>
+                <li>UGUI / UIToolkit / UIElement</li>
+                <li>PC / VR / Android / Webgl </li>
+                <li>Pico / Oculus / HTC VIVE/ Focus / DPVR / GearVR / ...</li>
+                <li>Sdk</li>
+                <!-- 在此处添加更多技能 -->
+            </ul>
+        </section>
+
+        <section class="contact-info">
+            <h1>联系方式</h1>
+            <ul>
+                <li>E-mail: 1115953731@qq.com</li>
+                <li>Phone: 13795117298</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
